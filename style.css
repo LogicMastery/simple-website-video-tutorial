@@ -1,0 +1,78 @@
+/* Colors
+#5f9ea0
+#46b4f0
+#6495ed  */
+
+/* Navigation Bar styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #6495ed;
+    color: #ffff;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header {
+    padding: 0 20px;
+    background-color: #6495ed;
+    height: 80px;
+}
+
+#logo {
+    font-weight: 900;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    color: #e34105;
+}
+
+ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul a {
+    color: #ffff;
+}
+
+ul li {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+ul li:hover {
+    transform: scale(1.5,1.5);
+    transition: 0.3s;
+}
+
+nav {
+    height: 80px;
+    background-color: #6495ed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 0 1.5rem;
+}
+
+/* Content Styling */
+
+.hero {
+    background: #5f9ea0;
+}
