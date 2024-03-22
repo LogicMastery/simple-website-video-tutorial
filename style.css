@@ -1,14 +1,14 @@
-/* Colors
+/* Colors:
 #5f9ea0
 #46b4f0
-#6495ed  */
+#6495ed */
 
-/* Navigation Bar styling */
+/* Navigation Bar Styling */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
 }
 
 body {
@@ -43,16 +43,12 @@ ul {
 }
 
 ul a {
-    color: #ffff;
-}
-
-ul li {
     padding: 5px;
     margin-left: 10px;
 }
 
 ul li:hover {
-    transform: scale(1.5,1.5);
+    transform: scale(1.5, 1.5);
     transition: 0.3s;
 }
 
@@ -62,7 +58,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0rem calc((100vw - 1300px) / 2);
+    padding: 0rem calc((100vw - 1300) / 2);
 }
 
 nav a {
@@ -72,6 +68,14 @@ nav a {
 }
 
 /* Content Styling */
+
+.logo {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
 
 .hero {
     background: #5f9ea0;
